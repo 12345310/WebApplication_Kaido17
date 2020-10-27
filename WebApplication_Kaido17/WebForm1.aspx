@@ -35,22 +35,24 @@
                            </asp:ScriptManager> 
                            <div>
                            <asp:Panel ID="Panel2" runat="server">
+                               Enter Your ID
                            </asp:Panel> 
-                           <asp:Label ID="Label100" runat="server" Text="First  Name"></asp:Label>
+                           <asp:Label ID="Label100" runat="server" Text="ID      "></asp:Label>
                            <asp:TextBox ID="TextBox100" runat="server"></asp:TextBox>
                            <ajaxToolkit:BalloonPopupExtender ID="BalloonPopupExtender1" runat="server"   
-                           TargetControlID="TextBox100" BalloonPopupControlID="Panel1" 
+                           TargetControlID="TextBox100" BalloonPopupControlID="Panel2" 
                            BalloonStyle="Cloud">
                            </ajaxToolkit:BalloonPopupExtender>  
         
                            </div>
                            <div style="margin-top:25px">
                            <asp:Panel ID="Panel3" runat="server">
+                               Enter Your Password
                            </asp:Panel> 
-                           <asp:Label ID="Label200" runat="server" Text="Seco Name"></asp:Label>
+                           <asp:Label ID="Label200" runat="server" Text="Password"></asp:Label>
                            <asp:TextBox ID="TextBox200" runat="server"></asp:TextBox>
                            <ajaxToolkit:BalloonPopupExtender ID="BalloonPopupExtender2" runat="server" 
-                           TargetControlID="TextBox200" BalloonPopupControlID="Panel2" 
+                           TargetControlID="TextBox200" BalloonPopupControlID="Panel3" 
                            BalloonStyle="Rectangle">
                            </ajaxToolkit:BalloonPopupExtender>  
                            </div>                        
