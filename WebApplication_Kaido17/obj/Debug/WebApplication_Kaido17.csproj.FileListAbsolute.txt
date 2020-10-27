@@ -1,4 +1,3 @@
-C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.csprojAssemblyReference.cache
 C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\Interop.IWshRuntimeLibrary.dll
 C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.csproj.ResolveComReference.cache
 C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.dll.licenses
@@ -92,3 +91,4 @@ C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj
 C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.csproj.CopyComplete
 C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.dll
 C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.pdb
+C:\Users\b12k5003\source\repos\WebApplication_Kaido17\WebApplication_Kaido17\obj\Debug\WebApplication_Kaido17.csprojAssemblyReference.cache

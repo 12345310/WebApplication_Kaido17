@@ -24,27 +24,52 @@
             <form id="form1" runat="server">
                 <div style="height: 5299px">
 
-
+<%--
 <ajaxToolkit:TabContainer ID="tab" runat="server">
   <ajaxToolkit:TabPanel runat="server" HeaderText="Controls_1">
     <ContentTemplate>
-
+ --%>
                         <p style="height: 37px">
                         1. Baloons
-                            <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
-                            <asp:TextBox ID="TextBox1" runat="server" Height="16px" style="margin-top: 0px; margin-bottom: 3px" Width="150px"></asp:TextBox>
-                        </p>
-                        <p style="height: 28px; margin-top: 19px;">
+                           <asp:ScriptManager ID="ToolkitScriptManager1" runat="server">
+                           </asp:ScriptManager> 
+                           <div>
+                           <asp:Panel ID="Panel2" runat="server">
+                           </asp:Panel> 
+                           <asp:Label ID="Label100" runat="server" Text="First  Name"></asp:Label>
+                           <asp:TextBox ID="TextBox100" runat="server"></asp:TextBox>
+                           <ajaxToolkit:BalloonPopupExtender ID="BalloonPopupExtender1" runat="server"   
+                           TargetControlID="TextBox100" BalloonPopupControlID="Panel1" 
+                           BalloonStyle="Cloud">
+                           </ajaxToolkit:BalloonPopupExtender>  
+        
+                           </div>
+                           <div style="margin-top:25px">
+                           <asp:Panel ID="Panel3" runat="server">
+                           </asp:Panel> 
+                           <asp:Label ID="Label200" runat="server" Text="Seco Name"></asp:Label>
+                           <asp:TextBox ID="TextBox200" runat="server"></asp:TextBox>
+                           <ajaxToolkit:BalloonPopupExtender ID="BalloonPopupExtender2" runat="server" 
+                           TargetControlID="TextBox200" BalloonPopupControlID="Panel2" 
+                           BalloonStyle="Rectangle">
+                           </ajaxToolkit:BalloonPopupExtender>  
+                           </div>                        
+                           <br />
+                           <br />
                         2. Check Boxes
                         <asp:CheckBox ID="CheckBox1" runat="server" OnCheckedChanged="CheckBox1_CheckedChanged" AutoPostBack="True" />
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         </p>
                         <p style="height: 26px; margin-top: 0px;">
+                        <br />
+                        <br />
                         3. Command Buttons
                             <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" Height="21px" style="margin-top: 0px" />
                 &nbsp;
                             <asp:Label ID="Label6" runat="server"></asp:Label>
                         </p>
+                        <br />
+                        <br />
                         4. Command Links
                         <asp:Button ID="Button7" runat="server" OnClick="Button7_Click" Text="Button" />
                         <br />
@@ -236,8 +261,6 @@
                         <br />
                         10. Progress Bars<br />
                     (1)<br />
-                        <asp:ScriptManager ID="ScriptManager1" runat="server">
-                        </asp:ScriptManager>
                         <asp:UpdateProgress ID="UpdateProgress1" runat="server">
                             <ProgressTemplate>
                             <img alt="" src="preloader.gif" style="height: 107px; width: 205px"/>
@@ -270,11 +293,12 @@
                     <input type="button" value="START" onclick="updateProgress(0)" />
 
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText="Controls_2">
     <ContentTemplate>
+ --%>
 
                  <br />
                  <br />
@@ -411,11 +435,13 @@
                 <br />
                 <br />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText="Windows">
     <ContentTemplate>
+ --%>
+
            <br />
            1. Window Management<br />
                 &nbsp;&nbsp;
@@ -496,11 +522,12 @@
                     <br />
             <br />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText=" Commands">
     <ContentTemplate>
+ --%>
 
                     1. Menus<br />
 
@@ -568,11 +595,12 @@ InsertTextArea, InsertRadioButton, InsertCheckBox, InsertDropDownList, InsertBut
                     <br />
                     <br />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText="Text">
     <ContentTemplate>
+ --%>
 
                     1. User Interface Text<br />
                     &nbsp;&nbsp;&nbsp;<asp:Button ID="Button14" runat="server" OnClick="Button14_Click" Text="Button" />
@@ -599,12 +627,12 @@ InsertTextArea, InsertRadioButton, InsertCheckBox, InsertDropDownList, InsertBut
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Button ID="Button15" runat="server" OnClick="Button15_Click" Text="Sign in" />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText="Messages">
     <ContentTemplate>
-
+ --%>
 
                     <br />
                     1. Error Messages<br />
@@ -624,11 +652,12 @@ InsertTextArea, InsertRadioButton, InsertCheckBox, InsertDropDownList, InsertBut
                     <br />
                     <br />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText="Interaction">
     <ContentTemplate>
+ --%>
 
                     1. Touch
                      <!doctype html>
@@ -810,11 +839,12 @@ InsertTextArea, InsertRadioButton, InsertCheckBox, InsertDropDownList, InsertBut
                     <br />
                     <br />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
   <ajaxToolkit:TabPanel runat="server" HeaderText="Visuals">
     <ContentTemplate>
+ --%>
 
                        1. Layout; (Resizable Text)<br />
                     <head>
@@ -1007,11 +1037,11 @@ InsertTextArea, InsertRadioButton, InsertCheckBox, InsertDropDownList, InsertBut
                         
                         <asp:Button ID="Button32" runat="server" OnClick="Button32_Click" Text="再生" />
 
-
+<%--
     </ContentTemplate>
   </ajaxToolkit:TabPanel>
 </ajaxToolkit:TabContainer> 
-
+ --%>
                         
       </div>
     </form>

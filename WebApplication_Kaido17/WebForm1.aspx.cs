@@ -18,7 +18,7 @@ using System.Data;
 using System.Runtime.InteropServices;
 using System.Drawing;
 using System.Media;
-
+using System.ComponentModel;
 
 namespace WebApplication_Kaido17
 {
@@ -27,7 +27,7 @@ namespace WebApplication_Kaido17
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            TextBox1.ToolTip = "お知らせ";
+
 
             if (Page.IsPostBack)
             {
